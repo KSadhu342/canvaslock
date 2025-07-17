@@ -24,7 +24,7 @@ const firebaseConfig = {
   appId: firebaseAppId,
 };
 
-console.log("✅ Firebase Key:", firebaseApiKey); // Should log actual value
+// Should log actual value
 
 const app = initializeApp(firebaseConfig);
 
